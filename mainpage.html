@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image:url("https://i.imgur.com/w1ZVGUM.png");
+            background-size: cover;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .logout-btn {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .logout-btn:hover {
+            background-color: #45a049;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Teacher Assignment Management System</h1>
+    </header>
+
+    <nav>
+        <div>
+            <a href="mainpage.html">Home</a>
+            <a href="c_assign1.PHP">Create Assignments</a>
+            <a href="view1.PHP">View Assignment</a>
+            <a href="submitted.php">submitted</a>
+        </div>
+        <div>
+            <a href="login1.php" class="logout-btn">Logout</a>
+        </div>
+    </nav>
+
+    <footer>
+        <p>&copy; 2024 Assignment Management System</p>
+    </footer>
+
+</body>
+</html>
